@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "YMReactNativeStaticLibs"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "Yahoo Mail++ React Native Static Libs"
   s.homepage         = "https://git.ouroath.com/ymobilemail/react-native-static-libs"
   s.author           = { "The Mail Team" => "saturn-ios-dev@oath.com" }
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'include/**/*.h'
-  s.ios.vendored_library = 'lib/*.a'
+  s.ios.vendored_library = 'reactNativeBundle/Release-universal/*.a'
 end
 
