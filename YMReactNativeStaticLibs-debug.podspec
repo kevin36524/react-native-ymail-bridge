@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "YMReactNativeStaticLibs-debug"
-  s.version          = "1.0.5"
+  s.version          = "1.0.6"
   s.summary          = "Yahoo Mail++ React Native Static Libs"
   s.homepage         = "https://git.ouroath.com/ymobilemail/react-native-static-libs"
   s.author           = { "The Mail Team" => "saturn-ios-dev@oath.com" }
